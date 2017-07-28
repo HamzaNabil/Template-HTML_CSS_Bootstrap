@@ -1,0 +1,200 @@
+/* Navbar */ 
+
+* , *:after, *:before
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial;
+}
+
+.navbar-default 
+{
+    background: #fff;
+    border: none
+}
+
+.navbar-default .navbar-brand
+{
+    color: #a67ecf;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover
+{
+    color: #a67ecf
+}
+
+.navbar-default .navbar-nav>li>a
+{
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: #a67ecf
+}
+
+/* About Section */
+
+section.about
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 0 ;
+}
+
+section.about div.narrow h1 , section.product div.narrow h1
+{
+    font-size: 2em;
+    color: #a67ecf;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+section.about div.narrow p, section.product div.narrow p
+{
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 5%
+}
+
+section.about img
+{
+    width: 100%;
+    margin-bottom: 2%
+}
+
+section.about div.img
+{
+    background-image: url("../Images/work-1.jpg");
+    height: 480px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+section.about div.img p
+{
+    position: absolute;
+    bottom: 0;
+    color: #DDD;
+    margin: 0;
+    font-size: 20px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+/* Service section */
+ 
+section.service
+{
+    margin-top: 7%;
+    width: 100%;
+    height: 400px;
+    background: url('../Images/intro.jpg');
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section.service p
+{
+    font-size: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    margin-top:15%; 
+    padding: 25px;
+    text-transform: uppercase;
+    display: inline-block
+}
+
+
+/* section product */
+section.product
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+section.product img
+{
+    width: 100%;
+    height: 250px;
+}
+
+section.choose
+{
+    width: 100%;
+    height: auto;
+    margin: 80px 0 ;
+    padding: 50px 0 ;
+    background: #fbfbfb;
+}
+
+section.choose i , 
+section.choose div.part
+{
+    float: left
+}
+
+section.choose div.part p , section.choose div.part h2
+{
+    margin: 0
+}
+
+section.choose i
+{
+    position: relative;
+    top: 20px;
+    width: 20%;
+}
+section.choose div.part 
+{
+    width: 80%;
+}
+
+section.choose div.part h2
+{
+    color: #a67ecf;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+section.choose div.part p 
+{
+    color: #888;
+    margin-top: 5%;
+    font-size: 19px;
+}
+
+footer
+{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+footer p
+{
+    font-size: 18px;
+    color: #888
+}
+
+footer i
+{
+    padding: 10px;
+    background: #999;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+
